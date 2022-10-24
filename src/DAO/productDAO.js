@@ -3,6 +3,7 @@ import { BaseRepository } from "./BaseRepository.js";
 
 let instance;
 
+
 class ProductDAO extends BaseRepository {
     constructor(Product){
         super(Product)
